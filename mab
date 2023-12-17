@@ -1,0 +1,20 @@
+        let collage = Collage(
+            shapes: [.init(elements: [element1],
+                           zPosition: 1,
+                           blendMode: .normal,
+                           blur: .none,
+                           adjustments: .defaultAdjustments,
+                           transforms: .init()),
+                     .init(elements: [element2],
+                           zPosition: 2,
+                           blendMode: .normal,
+                           blur: .none,
+                           adjustments: .defaultAdjustments,
+                           transforms: .init())],
+            dependencies: [],
+            cornerRadius: 20,
+            background: background,
+            texts: [text],
+            stickers: [sticker],
+            id: collageID
+        )
